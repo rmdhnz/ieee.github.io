@@ -1,0 +1,41 @@
+* {
+  font-family: "Oswald", sans-serif;
+}
+.gerak {
+  transition: 0.5s;
+  border-radius: 0 50% 0 50%;
+}
+.gerak:hover {
+  transform: rotate(-15deg) scale(1.1);
+}
+.jumbotron {
+  height: 80vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(img/its.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.jumbotron-contain {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+hr {
+  width: 250px;
+  border-top: 5px solid #666;
+}
+hr:nth-child(2) {
+  border-top: 5px solid #fff;
+}
+section {
+  min-height: 600px;
+  padding-top: 5rem;
+}
+
+footer {
+  background-color: #000;
+}
